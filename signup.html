@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="formnew3.js">	</script>
+  </head>
+  <body style="position: relative;
+  bottom:-100px ;
+  background-image:url('formimg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;">
+	 
+  <center>
+		<h1>NEW REGISTATION</h1>
+    <form name="myform" method="post"  action=""  onsubmit="return validateform()">
+      Name: <input type="text" name="name" /><br />
+      <br />
+      Email: <input type="email" name="email" minlength="10"/><br />
+      <br />
+	  Password: <input type="password" name="password"><br/> <br> 
+      
+	  Phone No:<input type="text" name="phno" maxlength="10"><br><br>
+	  Gender: <input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female">Female<br><br>	
+      <input type="submit" value="submit" />
+    </form>
+    </center>
+  </body>
+</html>

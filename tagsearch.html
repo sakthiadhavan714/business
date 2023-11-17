@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Business Casual - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
+        <link rel="icon" type="image/png" href="assets/icons/favicon.ico"/>
+        <link href="css/styles.css" rel="stylesheet" />
+
+        
+    </head>
+    <body>
+        <header>
+            <h1 class="site-heading text-center text-faded d-none d-lg-block">
+                <span class="site-heading-upper text-primary mb-3">Inplant Training 
+                    NLC India Limited</span>
+                <span class="site-heading-lower">Information Technology at TPS 1 Expansion</span>
+            </h1>
+        </header>
+       
+        <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="index.html">Home</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="about.html">About</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="login.html">Login</a></li>
+                        <li class="nav-item px-lg-4"><select  class="nav-link text-uppercase non-background href-select" onchange="this.selectedIndex = 0;window.location.href =window.location.href.substring(0, window.location.href.lastIndexOf('/') + 1)+'defectregister.html';">
+                            <option selected >Safety Permits</option>
+                            <option>Power Home Safety Permits</option>
+                            <option>LHS</option>
+                            <option>AHS</option>
+                            <option>DM PLANT</option>
+                            <option>Defects Register</option>
+                        </select></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="tagsearch.html">Tag Search</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="products.html">Services Used</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="store.html">Requirements</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="page-section clearfix flex-box-center" style="margin-top: 1vw;">
+            <div class="flex-box-center div_container tag_search_container" >
+                <div class="container1" style="width: 57%;">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 10%;">ID</th>
+                                <th style="width: 5%;">UNIT</th>
+                                <th style="width: 15%;" >Division</th>
+                                <th style="width: 20%;">Equipment</th>
+                                <th style="width: 30%;">DESCRIPTION OF DEFECT</th>
+                                <th style="width: 15%;">Latest Remark</th>
+                                <th style="width: 7%;">Priority</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                       
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="container2">
+                    <div class="border-box" style="text-align: center;"><span class="header-big">SEARCH FOR TAG NUMBER</span></div>
+                    <div class="border-box flex-box-row">
+                        <div class="border-box-small" style="width: 40%;"><span class="sub-header">Area</span></div>
+                        <div class="border-box-small" style="width: 60%;"><select class="small_text_2"><option></option></select></div>
+                    </div>
+                    <div class="border-box flex-box-row">
+                        <div class="border-box-small" style="width: 40%;"><span class="sub-header">Unit</span></div>
+                        <div class="border-box-small" style="width: 60%;"><select class="small_text_2"><option>Common</option></select></div>
+                    </div>
+                    <div class="border-box flex-box-row">
+                        <div class="border-box-small" style="width: 40%;"><span class="sub-header">Equipment Description</span></div>
+                        <div class="border-box-small" style="width: 60%;"><textarea ></textarea></div>
+                    </div>
+                    <div class="border-box flex-box-row">
+                        <div class="border-box-small" style="width: 40%;"><span class="sub-header">Tag Number</span></div>
+                        <div class="border-box-small" style="width: 60%;"><input type="text" class="small_text_2" id="tag-search"></div>
+                    </div>
+                    <div class="border-box flex-box-column" style="text-align: center;">
+                        <div class="border-box-small"><button class="small_button search_button">Find</button></div>
+                    </div>
+                </div>
+              
+            </div>
+        </section>
+        
+        <footer class="footer text-faded text-center py-5">
+            <div class="container"><p class="m-0 small">Copyright &copy; Network Website 2023</p></div>
+        </footer>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+       
+        <script src="js/scripts.js"></script>
+        <script src="js/fetch-search.js" ></script>
+    </body>
+</html>
